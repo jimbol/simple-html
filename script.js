@@ -1,8 +1,8 @@
 let countries = ['Mexico', 'India', 'Canada'];
 
-const paragraph = document.querySelector('.add-country');
+const addCountryButton = document.querySelector('.add-country');
 
-paragraph.addEventListener('click', addCountry);
+addCountryButton.addEventListener('click', addCountry);
 
 function addCountry() {
   const country = prompt('Enter new Country');
